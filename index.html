@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Janaína Scher" />
+    <meta name="description" content="Página desenvolvida para o desafio da aula de HTML da Alpha EdTech." />
+    <meta property="og:title" content="Portfólio Janaína Scher" />
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/79182711?v=4" />
+    <meta property="og:url" content="https://janascher.github.io/html-alpha-edtech/" />
+    <meta property="og:description" content="Este é o portfólio de Janaína Scher" />
+
+    <title>Portfólio Janaína Scher</title>
+</head>
+<body>
+    <!-- Menu -->
+    <nav>
+        <table>
+            <tr>
+                <th>
+                    <a href="#home">Home</a>
+                </th>
+                <th>
+                    <a href="#sobre">Sobre</a>
+                </th>
+                <th>
+                    <a href="#tecnologias">Tecnologias</a>
+                </th>
+                <th>
+                    <a href="#projetos">Projetos</a>
+                </th>
+                <th>
+                    <a href="#contato">Contato</a>
+                </th>
+                <th>
+                    <a href="https://github.com/janascher" target="_blank">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Link do GitHub da Janaína Scher" width="20px" />
+                    </a>
+                </th>
+                <th>
+                    <a href="https://www.linkedin.com/in/janainascher/" target="_blank">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="Link do linkedin da Janaína Scher" width="20px" />
+                    </a>
+                </th>
+            </tr>
+        </table>
+    </nav>
+    <br />
+
+    <!-- Cabeçalho -->
+    <header id="home">
+        <img src="./image/janaina-scher.png" alt="Foto da autora do portfólio." width="200px" />
+        <p>Olá mundo, eu sou</p>
+        <h1>Janaína Scher</h1>
+        <p>Futura desenvolvedora web full-stack</p>
+    </header>
+    <hr />
+
+    <!-- Conteúdo principal -->
+    <main>
+        <!-- Seção sobre mim -->
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <p>Sou mãe, bacharel em Administração de Empresas e, atualmente, estou em transição de carreira para a área da programação. Curso Tecnologia em Desenvolvimento Web na Anhanguera e, também, sou Aspirante a Desenvolvedor Web na Alpha EdTech.</p>
+        </section>
+        <hr />
+
+        <!-- Seção tecnologias -->
+        <section id="tecnologias">
+            <h2>Tecnologias</h2>
+            <p>Estou estudando:</p>
+            
+            <table>
+                <tr>  
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="50px" />
+                </tr>
+                <tr>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="50px"/>
+                </tr>
+                <tr>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" alt="JavaScript" width="50px"/>
+                </tr>
+                <tr>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="50px"/>
+                </tr>
+                <tr>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="50px"/>
+                </tr>
+                <tr>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" alt="Visual Studio Code" width="50px"/>
+                </tr>
+                <tr>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" width="50px" />
+                </tr>
+            </table>
+        </section>
+        <hr />
+
+        <!-- Seção projetos -->
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <p>
+                Repositório geral dos exercícios feitos das aulas de HTML:
+                <a href="https://github.com/janascher/html-alpha-edtech">
+                    https://github.com/janascher/html-alpha-edtech
+                </a>
+            </p>
+
+            <h3>Atividades realizadas nas aulas anteriores</h3>
+            <iframe src="https://janascher.github.io/html-alpha-edtech/" frameborder="1" width="500" height="620"></iframe>
+
+        </section>
+        <hr />
+
+        <!-- Contato -->
+        <section id="contato">
+            <h1>Contato</h1>
+
+            <form action="/dados-do-form" method="post">
+                <fieldset>
+                    <label for="name">Nome:</label><br />
+                    <input type="text" name="name" placeholder="Nome" required />
+                    <br /><br />
+
+                    <label for="email">E-mail:</label><br />
+                    <input type="email" name="email" placeholder="contato@email.com" required>
+                    <br /><br />
+
+                    <label for="message">Mensagem:</label><br/>
+                    <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+                    <br /><br />
+
+                    <button type="submit">ENVIAR</button>
+
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            <small>
+                Feito somente com HTML por 
+                <a href="https://github.com/janascher" target="_blank">
+                    Janaína Scher
+                </a>, aluna da Alpha EdTech.
+            </small>
+        </p>
+    </footer>
+    
+</body>
+</html>
