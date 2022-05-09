@@ -1,6 +1,6 @@
 <div align="center">
 	<a href="https://www.alphaedtech.org.br/">
-		<img src="https://user-images.githubusercontent.com/79182711/167314470-bad3f997-619b-46d3-9326-4eead4424d9b.png" alt="Alpha EdTech" title="Alpha EdTech" width="250" />
+		<img src="https://user-images.githubusercontent.com/79182711/167457199-71619808-d9f3-4c0a-84b9-c406009415a3.png" alt="Alpha EdTech" title="Alpha EdTech" width="250" />
 	</a>
 	<h4>
     Desafio HTML -
